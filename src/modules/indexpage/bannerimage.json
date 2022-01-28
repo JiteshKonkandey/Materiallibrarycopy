@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1, 
+        "url": "bannerimages/bannerimage1.png"
+    },
+    {
+        "id": 2, 
+        "url": "bannerimages/bannerimage2.png"
+    },
+    {
+        "id": 3, 
+        "url": "bannerimages/bannerimage3.png"
+    }
+]

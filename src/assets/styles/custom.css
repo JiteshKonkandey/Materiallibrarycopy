@@ -1,0 +1,374 @@
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-color: #ffffff;
+    background-color: #f0f0f6;
+}
+* {
+    box-sizing: border-box;
+}
+body,
+button,
+html,
+input,
+select,
+textarea,
+div,
+p,
+span,
+label {
+    font-family: "Roboto", "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif" !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+button,
+html,
+input,
+select,
+textarea,
+div,
+p,
+span,
+label {
+    font-family: "SFProText", "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif" !important;
+}
+
+.active-menu {
+    color: #fff;
+    background: #4e578b;
+}
+
+.menu {
+    color: #848cbf;
+}
+
+.active-sub-menu {
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 5px;
+    padding-left: 4.5rem;
+}
+
+.sub-items {
+    padding: 5px 0 0.2rem 4.5rem !important;
+}
+
+.sub-menu {
+    color: #848cbf;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+input:focus {
+    border: solid 1px #2f78a8;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-inline {
+    display: inline;
+}
+
+/*Cursor-CSS*/
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+/*Borders*/
+.b-1-blue {
+    border: 1px solid #0052cc;
+}
+
+.b-1-white {
+    border: 1px solid #e6e6e6;
+}
+
+/*Border-radius*/
+.br-4 {
+    border-radius: 4px;
+}
+
+/*Font-sizes*/
+
+.fs-sm {
+    font-size: 10px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-17 {
+    font-size: 17px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-19 {
+    font-size: 19px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+/*Font-color*/
+
+.fc-warm-grey {
+    color: #999999;
+}
+
+.fc-blue {
+    color: #0052cc !important;
+}
+
+.fc-dark-slate-blue {
+    color: #172b4d;
+}
+
+.fc-white {
+    color: #ffffff !important;
+}
+
+.fc-black {
+    color: #000000;
+}
+
+.fc-blue-grey {
+    color: #5e6c84;
+}
+
+.fc-red {
+    color: red;
+}
+
+.fc-brownish-grey {
+    color: #666666;
+}
+
+.fc-dusky-blue {
+    color: #465d85;
+}
+
+/*Background-color*/
+
+.bg-blue {
+    background-color: #0052cc !important;
+}
+
+/*Width-CSS*/
+
+.outline-none {
+    outline: none !important;
+}
+
+/*Width-CSS*/
+
+.w-150 {
+    width: 150px;
+}
+
+.w-450 {
+    width: 450px;
+}
+
+.w-100-per {
+    width: 100%;
+}
+
+.w-250 {
+    width: 250px;
+}
+.w-413 {
+    width: 413px;
+}
+.p-l-20 {
+    padding-left: 20px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-b-20 {
+    padding-bottom: 20px;
+}
+
+.color-848CBF {
+    color: #848cbf;
+}
+
+.z-index-100 {
+    z-index: 100;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize !important;
+}
+
+.input-border {
+    border: solid 1px #dfe1e6;
+    border-radius: 2px;
+    background-color: #fafbfc;
+}
+
+.checkbox-border {
+    border-radius: 2px;
+    border: solid 1px #b9bbc2;
+    background-color: #ffffff;
+}
+
+
+
+/* Login page */
+
+.login-container {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 100vh;
+}
+.logo{
+    margin: 0px 0px 16px 5px;
+}
+.main-loginform h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main-loginform p {
+    margin: 0px;
+}
+.login-slider {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    background-color: #dfdfde;
+}
+
+.login-form {
+    width: 50%;
+    display: flex;
+    background-color: #dfdfde;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.form-input input {
+    width:26vw;
+    height: 7vh;
+    margin: 0px 0px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-remember-forgot .form-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.remember, .forgot {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+.form-remember-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-checkbox .checkbox 
+{
+    margin-right: 4px;
+}
+
+.loginbutton {
+    width: 26vw;
+    height: 7vh;
+    border: none;
+    background-color: #fb771a;
+    border-radius: 5px;
+}

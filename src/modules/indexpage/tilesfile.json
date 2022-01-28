@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1, 
+        "url": "tilesImages/tile_1.png",
+        "heading": "Roofing Tiles"
+    },
+    {
+        "id": 2, 
+        "url": "tilesImages/tile_2.png",
+        "heading": "Ceiling Tiles"
+    },
+    {
+        "id": 3, 
+        "url": "tilesImages/tile_3.png",
+        "heading": "Flooring Tiles"
+    },
+    {
+        "id": 4, 
+        "url": "tilesImages/tile_4.png",
+        "heading": "Wall Tiles"
+    },
+    {
+        "id": 5, 
+        "url": "tilesImages/tile_5.png",
+        "heading": "Atype Tiles"
+    },
+    {
+        "id": 6, 
+        "url": "tilesImages/tile_6.png",
+        "heading": "Btype Tiles"
+    },
+    {
+        "id": 7, 
+        "url": "tilesImages/tile_7.png",
+        "heading": "Ctype Tiles"
+    },
+    {
+        "id": 8, 
+        "url": "tilesImages/tile_8.png",
+        "heading": "Dtype Tiles"
+    },
+    {
+        "id": 9, 
+        "url": "tilesImages/tile_9.png",
+        "heading": "Etype Tiles"
+    },
+    {
+        "id": 10, 
+        "url": "tilesImages/tile_10.png",
+        "heading": "Ftype Tiles"
+    }
+
+]
